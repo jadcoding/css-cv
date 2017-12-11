@@ -1,0 +1,221 @@
+     html {
+         width: 80%;
+         margin: auto;
+     }
+     
+     body {
+         width: 80%;
+         margin: auto;
+     }
+     
+     #wrapper {
+         width: 80%;
+         margin: auto;
+     }
+     
+     header {
+         background: gray;
+         color: red;
+     }
+     
+     hgroup {
+         padding: 1%;
+         padding-left: 10%;
+     }
+     
+     figure {
+         position: absolute;
+         top: 0;
+         left: 32%;
+     }
+     
+     img {
+         position: relative;
+     }
+     
+     .content {
+         margin: 2%;
+         width: 87%;
+         padding-left: 5%;
+     }
+     
+     section {
+         width: 50%;
+         float: left;
+     }
+     
+     #contact {
+         position: absolute;
+         top: 2%;
+         left: 51.4%;
+         width: 38%;
+     }
+     
+     dt,
+     dd {
+         float: left;
+         margin: 0;
+         width: 22%;
+     }
+     
+     dt {
+         clear: both;
+     }
+     
+     .contact-type {
+         color: white;
+         background-color: red;
+     }
+     
+     .contact-value {
+         color: red;
+         background-color: black;
+         width: 75%;
+     }
+     
+     .contact-value a {
+         color: red;
+     }
+     
+     h3::before {
+         display: block;
+         float: left;
+         content: "";
+         text-indent: 20px;
+         width: 20px;
+         height: 20px;
+         background: red;
+         border-radius: 20px;
+     }
+     
+     h3 {
+         border-bottom: 1px solid #b6a9a9;
+     }
+     
+     .experience-date-separator {
+         color: red;
+     }
+     
+     .experience-date-separator span {
+         color: gray;
+     }
+     
+     .skill {
+         margin-top: 7px;
+         margin-bottom: 3px;
+         background-color: #c9c5c5;
+         color: white;
+         padding-top: 7px;
+         padding-bottom: 8px;
+     }
+     
+     .skills.skills-primary::before {
+         content: "Main";
+     }
+     
+     .skills.skills-secondary::before {
+         content: "Other";
+     }
+     
+     [data-skill="5"] span {
+         display: block;
+         background-color: red;
+         height: 30px;
+         width: 50%;
+     }
+     
+     [data-skill="3"] span {
+         display: block;
+         background-color: red;
+         height: 30px;
+         width: 30%;
+     }
+     
+     [data-skill="1"] span {
+         display: block;
+         background-color: red;
+         height: 30px;
+         width: 15%;
+     }
+     
+     [data-skill="9"] span {
+         display: block;
+         background-color: red;
+         height: 30px;
+         width: 90%;
+     }
+     
+     [data-skill="7"] span {
+         display: block;
+         background-color: red;
+         height: 30px;
+         width: 70%;
+     }
+     
+     .skills.skills-secondary span {
+         box-shadow: inset 0px 35px 0px 0px #a59c9ccb;
+     }
+     
+     h4 {
+         color: red;
+     }
+     
+     #contact h3 {
+         display: none;
+     }
+     
+     .contact-skype dd {
+         color: black;
+     }
+     
+     .experience-details {
+         color: gray;
+     }
+     
+     .experience-details::before {
+         content: "in";
+     }
+     
+     .experience-institution::before {
+         content: "@"
+     }
+     
+     @media screen and (max-width:700px) {
+         htm {
+             width: 100%;
+             margin: 0 auto;
+         }
+         body {
+             width: 100%;
+             margin: 0 auto;
+         }
+         #wrapper {
+             width: 100%;
+             margin: 0 auto;
+         }
+         header {
+             width: 50%;
+         }
+         hgroup {
+             position: relative;
+             width: 50%;
+         }
+         section {
+             float: none;
+             position: relative;
+         }
+         figure {
+             position: relative;
+             left: 14px;
+             top: -26px;
+         }
+         #contact {
+             position: relative;
+             left: 0;
+             width: 49%;
+         }
+         dt,
+         dd {
+             width: 25%;
+         }
+     }

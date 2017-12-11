@@ -1,0 +1,201 @@
+    body {
+        margin: 0 auto;
+    }
+    
+    #wrapper {
+        margin: 0 auto;
+    }
+    
+    header {
+        background: gray;
+        color: red;
+        padding: 1%;
+    }
+    
+    hgroup {
+        padding-left: 10%;
+        margin: 0;
+        font-size: 20px;
+    }
+    
+    img {
+        position: absolute;
+        left: 32%;
+        top: 10%;
+    }
+    
+    section {
+        float: left;
+        width: 50%;
+        margin: 0;
+    }
+    
+    .content {
+        width: 85%;
+        font-size: 26px;
+        margin: 7%;
+        padding-left: 20px;
+    }
+    
+    .contacts {
+        position: absolute;
+        top: -2%;
+        width: 57.8%;
+    }
+    
+    .contact-type {
+        float: left;
+        color: white;
+        background: red;
+        width: 24%;
+        padding: 1px;
+    }
+    
+    .contact-value {
+        float: left;
+        background: black;
+        width: 60%;
+        padding: 1px;
+        margin: 0;
+    }
+    
+    .contact-value a {
+        color: red;
+        text-decoration: none;
+    }
+    
+    h3::before {
+        display: block;
+        float: left;
+        content: "";
+        text-indent: 20px;
+        width: 20px;
+        height: 20px;
+        background: red;
+        border-radius: 20px;
+    }
+    
+    h3 {
+        border-bottom: 1px solid #b6a9a9;
+    }
+    
+    .experience-date-separator {
+        color: red;
+    }
+    
+    .experience-date-separator span {
+        color: gray;
+    }
+    
+    .skill {
+        margin-top: 7px;
+        margin-bottom: 3px;
+        background-color: #c9c5c5;
+        color: white;
+        padding-top: 7px;
+        padding-bottom: 8px;
+    }
+    
+    .skills.skills-primary::before {
+        content: "Main";
+    }
+    
+    .skills.skills-secondary::before {
+        content: "Other";
+    }
+    
+    [data-skill~="5"] span {
+        display: block;
+        background-color: red;
+        height: 30px;
+        width: 50%;
+    }
+    
+    [data-skill~="3"] span {
+        display: block;
+        background-color: red;
+        height: 30px;
+        width: 30%;
+    }
+    
+    [data-skill~="1"] span {
+        display: block;
+        background-color: red;
+        height: 30px;
+        width: 15%;
+    }
+    
+    [data-skill~="9"] span {
+        display: block;
+        background-color: red;
+        height: 30px;
+        width: 90%;
+    }
+    
+    [data-skill~="7"] span {
+        display: block;
+        background-color: red;
+        height: 30px;
+        width: 70%;
+    }
+    
+    .skills.skills-secondary span {
+        box-shadow: inset 0px 35px 0px 0px #a59c9ccb;
+    }
+    
+    h4 {
+        color: red;
+    }
+    
+    #contact h3 {
+        display: none;
+    }
+    
+    p {
+        margin-top: 40px;
+    }
+    
+    .contact-skype dd {
+        color: black;
+    }
+    
+    .experience-details {
+        color: gray;
+        margin-top: -34px;
+        margin-left: 19px;
+    }
+    
+    .experience-details::before {
+        content: "in";
+    }
+    
+    .experience-institution::before {
+        content: "@"
+    }
+    
+    @media screen and (max-width:1024px) {
+        #wrapper {
+            margin: 0;
+        }
+        section {
+            position: relative;
+            float: none;
+            width: 100%
+        }
+        .contacts {
+            width: 105%;
+            margin: -35px;
+            font-size: 22px;
+        }
+        .contact-type {
+            width: 52%;
+        }
+        .contact-value {
+            width: 46%;
+        }
+        img {
+            position: relative;
+            left: 15px;
+            top: -7px;
+        }
+    }
